@@ -1,0 +1,32 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "\"Browser based game\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijwgt/Advanced_javascript.git#master"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "puhov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ijwgt/Advanced_javascript/issues"
+  },
+  "homepage": "https://github.com/ijwgt/Advanced_javascript/tree/master#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "core-js": "^3.36.1"
+  }
+}
